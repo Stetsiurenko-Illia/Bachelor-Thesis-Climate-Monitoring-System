@@ -4,7 +4,7 @@ This repository contains the firmware source code, hardware schematics, and acad
 
 The project focuses on creating an autonomous, scalable hardware-software complex for real-time monitoring of environmental metrics.
 
-## 🎓 Academic Context
+## Academic Context
 * **University:** Igor Sikorsky Kyiv Polytechnic Institute (KPI)
 * **Faculty:** Faculty of Applied Mathematics
 * **Department:** Department of System Programming and Specialized Computer Systems (SP&SCS)
@@ -15,7 +15,7 @@ The project focuses on creating an autonomous, scalable hardware-software comple
 * **Norm Controller:** Ya. M. Kliatchenko, Ph.D., Associate Professor (SP&SCS Dept.)
 * **Reviewer:** V. Ya. Yurchyshyn, Ph.D., Associate Professor (SE&CS Dept.)
 
-## 📌 Project Overview
+## Project Overview
 The system is designed to collect, process, log, and visualize climate data (temperature, humidity, pressure, and air quality) in real-time. It is built on a scalable architecture, allowing it to function as a standalone unit or as a sensor node within a larger IoT infrastructure. 
 
 ### Key Features:
@@ -33,15 +33,15 @@ The physical prototype was built using the following components:
 * **Passive Components:** Resistor 10kΩ (0.25W, 5%)
 * **Input:** Tactile push button switch (KFC-012-7.3)
 
-## 🧪 Testing & Validation
+## Testing & Validation
 Rigorous testing was conducted to ensure system stability and measurement accuracy. Due to the large file size of the video demonstrations, the test logs and recordings are hosted externally:
 
-🔗 **[View Test Videos & Logs on Google Drive](https://drive.google.com/drive/folders/1_lzK90Ha8ldhJlzWENyB19Pn06la542a?usp=sharing)**
+🔗 **[View Test Videos on Google Drive](https://drive.google.com/drive/folders/1_lzK90Ha8ldhJlzWENyB19Pn06la542a?usp=sharing)**
 
 * **Error Handling:** Video recordings documenting the system's reaction to simulated hardware failures (e.g., sensor disconnection, I2C bus errors). This ensures the system recovers or reports errors gracefully without hard crashing.
 * **Altimeter Validation:** Real-world testing of the BME680 barometric pressure sensor across different physical elevations to verify the accuracy of the altitude calculation algorithms. 
 
-## 📂 Repository Structure
+## Repository Structure
 * `/weather_station.ino` — Main C/C++ firmware source code.
 * `/docs/Bachelor_Thesis_Full_Text.docx` — Complete academic paper (in Ukrainian).
 * `/images/hardware_schema.png` — Detailed electrical wiring diagram.
@@ -49,7 +49,7 @@ Rigorous testing was conducted to ensure system stability and measurement accura
 * `/images/device_view.jpg` — Photograph of the assembled hardware prototype.
 * `/images/schema_legend.jpg` — Legend and component explanations for the electrical schema.
 
-## 🖼 Visuals
+## Visuals
 ### Connection Diagram
 ![Hardware Schema](images/hardware_schema.png)
 
