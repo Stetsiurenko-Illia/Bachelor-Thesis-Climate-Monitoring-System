@@ -34,13 +34,15 @@ The physical prototype was built using the following components:
 * **Input:** Tactile push button switch (KFC-012-7.3)
 
 ## 🧪 Testing & Validation
-Rigorous testing was conducted to ensure system stability and measurement accuracy:
-* **Error Handling Logs:** Documented system reactions to simulated hardware failures (e.g., sensor disconnection, I2C bus errors, SD card initialization failures). Ensures the system recovers or reports errors gracefully without hard crashing.
-* **Altimeter Validation:** Real-world testing of the BME680 barometric pressure sensor across different physical elevations to verify the accuracy of altitude calculation algorithms. 
+Rigorous testing was conducted to ensure system stability and measurement accuracy. Due to the large file size of the video demonstrations, the test logs and recordings are hosted externally:
+
+🔗 **[View Test Videos & Logs on Google Drive](https://drive.google.com/drive/folders/1_lzK90Ha8ldhJlzWENyB19Pn06la542a?usp=sharing)**
+
+* **Error Handling:** Video recordings documenting the system's reaction to simulated hardware failures (e.g., sensor disconnection, I2C bus errors). This ensures the system recovers or reports errors gracefully without hard crashing.
+* **Altimeter Validation:** Real-world testing of the BME680 barometric pressure sensor across different physical elevations to verify the accuracy of the altitude calculation algorithms. 
 
 ## 📂 Repository Structure
-* `/src/weather_station.ino` — Main C/C++ firmware source code.
-* `/tests/` — Directory containing altitude validation screenshots and error handling logs.
+* `/weather_station.ino` — Main C/C++ firmware source code.
 * `/docs/Bachelor_Thesis_Full_Text.docx` — Complete academic paper (in Ukrainian).
 * `/images/hardware_schema.png` — Detailed electrical wiring diagram.
 * `/images/data_transmission_flowchart.png` — Logic flowchart of data acquisition and transfer.
