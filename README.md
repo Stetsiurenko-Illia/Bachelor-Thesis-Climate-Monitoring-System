@@ -24,7 +24,7 @@ The system is designed to collect, process, log, and visualize climate data (tem
 * **On-board Visualization:** Immediate data display via an I2C OLED screen.
 * **C/C++ Core:** Firmware developed using C/C++ for optimal performance and resource management on the ESP32 platform.
 
-## 🛠 Hardware Components
+## Hardware Components
 The physical prototype was built using the following components:
 * **Microcontroller:** ESP-WROOM-32 DevKit V1
 * **Environmental Sensor:** BME680 (Temperature, Humidity, Barometric Pressure, Gas/VOCs)
@@ -36,7 +36,7 @@ The physical prototype was built using the following components:
 ## Testing & Validation
 Rigorous testing was conducted to ensure system stability and measurement accuracy. Due to the large file size of the video demonstrations, the test logs and recordings are hosted externally:
 
-🔗 **[View Test Videos on Google Drive](https://drive.google.com/drive/folders/1_lzK90Ha8ldhJlzWENyB19Pn06la542a?usp=sharing)**
+ **[View Test Videos on Google Drive](https://drive.google.com/drive/folders/1_lzK90Ha8ldhJlzWENyB19Pn06la542a?usp=sharing)**
 
 * **Error Handling:** Video recordings documenting the system's reaction to simulated hardware failures (e.g., sensor disconnection, I2C bus errors). This ensures the system recovers or reports errors gracefully without hard crashing.
 * **Altimeter Validation:** Real-world testing of the BME680 barometric pressure sensor across different physical elevations to verify the accuracy of the altitude calculation algorithms. 
